@@ -1,36 +1,30 @@
 ﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko">
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <?php require_once('_defaultheaders.php'); ?>
 
         <title>The Node Beginner Book (Korean version) » A comprehensive Node.js tutorial</title>
         <meta name="description" content="A comprehensive Node.js tutorial for beginners (Korean version): Learn how to build a full blown web application with server-side JavaScript" />
 
-        <link rel="stylesheet" type="text/css" href="default.css" />
-        
+		<link rel="stylesheet" type="text/css" href="olddefault.css" />
+		<link rel="canonical" href="https://www.nodebeginner.org/index-kr.html" />
+
+        <?php require_once('_hreflang.php'); ?>
+
         <script type="text/javascript">
-            // Google Analytics
-            var _gaq = _gaq || [];
-            _gaq.push(['_setAccount', 'UA-2127388-6']);
-            _gaq.push(['_trackPageview']);
-
-            (function() {
-                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-            })();
-
             // Disqus
             var disqus_shortname = 'nodebeginner';
-            var disqus_identifier = 'nodebeginner-book';
-            var disqus_url = 'http://www.nodebeginner.org/index-kr.html';
+            var disqus_identifier = 'nodebeginner-book-korean';
+            var disqus_url = 'https://www.nodebeginner.org/index-kr.html';
             (function() {
                 var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-                dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+                dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
                 (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
             })();
         </script>
+
+        <?php require_once('_googleanalytics.php'); ?>
     </head>
     <body>
         <img style="display: none;" src="the_node_beginner_book_cover_medium.png" height="256" width="171" />
@@ -80,6 +74,20 @@
                         </a>
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        <a href="index-vi.html">
+                            <div class="flag"><img src="vi-flag.png" width="24" height="24" alt="vietnamese flag" /></div>
+                            <div class="text">Đọc bằng tiếng Việt</div>
+                        </a>
+                    </td>
+                    <td>
+                        &nbsp;
+                    </td>
+                    <td>
+                        &nbsp;
+                    </td>
+                </tr>
             </table>
         </div>
 
@@ -89,8 +97,8 @@
                     <p>
                         The perfect introduction plus the perfect reference in one bundle!
                     </p>
-                    <a href="buy-bundle/index.html"><img src="the_node_beginner_book_cover_small.png" height="86" width="57" /></a>
-                    <a href="buy-bundle/index.html"><img src="hands-on_node.js_cover.png" height="86" width="57" /></a>
+                    <a href="https://leanpub.com/b/node-beginner-and-craftsman-bundle"><img src="the_node_beginner_book_cover_small.png" height="86" width="57" /></a>
+                    <a href="https://leanpub.com/b/node-beginner-and-craftsman-bundle"><img src="hands-on_node.js_cover.png" height="86" width="57" /></a>
                 </div>
                 <div class="description">
                     <p>
@@ -119,7 +127,7 @@
                         <br />
                         Free updates
                     </p>
-                    <a class="buttonlink" href="buy-bundle/index.html">
+                    <a class="buttonlink" href="https://leanpub.com/b/node-beginner-and-craftsman-bundle">
                         <div class="button">Buy this<br />bundle now</div>
                     </a>
                 </div>
@@ -129,7 +137,7 @@
         <div id="book">
         <h1>The Node Beginner Book</h1>
 
-        <div id="author">A Node.js tutorial by <a href="http://twitter.com/manuelkiessling">Manuel Kiessling</a><br/>
+        <div id="author">A Node.js tutorial by <a href="https://twitter.com/manuelkiessling">Manuel Kiessling</a><br/>
                                    translated into korean by <a href="http://facebook.com/stoneshim">심형석</a>, <a href="http://blog.doortts.com/">채수원</a></div>
 
         <a name="about"></a>
@@ -2315,7 +2323,7 @@ Request handler 'start' was called.</pre>
         <p>
             이렇게 하면 
             <a href="http://localhost:8888/start" rel="nofollow">http://localhost:8888/start</a> 
-            에 대한 요청이 최소한 10초가 걸리게 되지만 
+            에 대한 요청이 최대 10초가 걸리게 되어 
             /start가 여전히 동작 중일 때에도 
             <a href="http://localhost:8888/upload" rel="nofollow">http://localhost:8888/upload</a> 
             요청은 곧바로 응답합니다.
@@ -3445,8 +3453,8 @@ Request handler 'start' was called.</pre>
                 <p>
                     The perfect introduction plus the perfect reference in one bundle!
                 </p>
-                <a href="/buy-bundle-bottom/"><img src="the_node_beginner_book_cover.png" height="86" width="57" /></a>
-                <a href="/buy-bundle-bottom/"><img src="hands-on_node.js_cover.png" height="86" width="57" /></a>
+                <a href="https://leanpub.com/b/node-beginner-and-craftsman-bundle"><img src="the_node_beginner_book_cover.png" height="86" width="57" /></a>
+                <a href="https://leanpub.com/b/node-beginner-and-craftsman-bundle"><img src="hands-on_node.js_cover.png" height="86" width="57" /></a>
             </div>
             <div class="description">
                 <p>
@@ -3475,7 +3483,7 @@ Request handler 'start' was called.</pre>
                     <br />
                     Free updates
                 </p>
-                <a class="buttonlink" href="/buy-bundle-bottom/">
+                <a class="buttonlink" href="https://leanpub.com/b/node-beginner-and-craftsman-bundle">
                     <div class="button">Buy this<br />bundle now</div>
                 </a>
             </div>
@@ -3539,18 +3547,17 @@ Request handler 'start' was called.</pre>
         <div id="disqus_thread"></div>
 
         <div id="footer">
-            <p id="ccimage">
-                <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" border="0" src="creative_commons.png" width="88" height="31"/></a>
+            <p>
+                Copyright 2011-2018 Manuel Kiessling
+                <br>
+
+                The contents on this website are free for personal use.
+                <br>
+
+                It is not permitted to copy (with the exception of Github forks), distribute, display, and perform the work, as well as make and distribute derivative works based on it, unless specifically granted.
             </p>
             <p>
-                <span xmlns:dct="http://purl.org/dc/terms/">The Node Beginner Book</span>
-                by
-                <a xmlns:cc="http://creativecommons.org/ns#" href="http://manuel.kiessling.net" rel="cc:attributionURL">Manuel Kiessling</a> (see <a href="https://plus.google.com/100272082905360445612?rel=author">Google+ profile</a>)
-                is licensed under a
-                <br />
-                <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.
-                <br />
-                Permissions beyond the scope of this license may be available at <a xmlns:cc="http://creativecommons.org/ns#" href="mailto:manuel@kiessling.net" rel="cc:morePermissions">manuel@kiessling.net</a>.
+                <a href="imprint.html">Imprint / Impressum / Datenschutz / Haftung</a>
             </p>
         </div>
     </body>
